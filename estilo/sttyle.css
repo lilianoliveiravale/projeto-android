@@ -139,12 +139,16 @@ main a:hover {
     color: var(--cor0);
 }
 
-main > img {
-    width: 100%;
+main img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 main > article img.pequena {
-    max-width: 250px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
